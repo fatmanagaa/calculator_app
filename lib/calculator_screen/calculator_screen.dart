@@ -260,7 +260,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   }
 
   void onDigitClick(String text) {
-    if (resText == '.' && resText.contains('.')) {
+    if (text == '.' && resText.contains('.')) {
       return;
     }
     resText += text;
