@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import '../calculator_button.dart';
-import '../calculator_colors.dart';
+import 'calculator_screen/widgets/calculator_button.dart';
+import 'core/calculator_colors.dart';
 import 'calculator_screen/calculator_screen.dart';
 
 void main() {

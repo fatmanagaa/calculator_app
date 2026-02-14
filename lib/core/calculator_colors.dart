@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../calculator_button.dart';
+import '../calculator_screen/widgets/calculator_button.dart';
 class CalculatorColors {
   static const Color backgroundColor =Color(0xFF17181A);
   static const Color whiteColor =Color(0xFFFFFFFF);

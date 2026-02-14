@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../calculator_button.dart';
-import '../calculator_colors.dart';
+import 'widgets/calculator_button.dart';
+import '../core/calculator_colors.dart';
 
 class CalculatorScreen extends StatefulWidget {
   static const String routeName = 'calculator_screen';

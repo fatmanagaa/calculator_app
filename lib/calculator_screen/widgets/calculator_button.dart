@@ -1,7 +1,7 @@
-import 'package:calculator_screen_ui_logic/calculator_button.dart';
+import 'package:calculator_screen_ui_logic/calculator_screen/widgets/calculator_button.dart';
 import 'package:flutter/material.dart';
 
-import '../calculator_colors.dart';
+import '../../core/calculator_colors.dart';
 import 'calculator_button.dart';
 
 typedef OnButtonClick = void Function(String);
