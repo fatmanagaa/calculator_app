@@ -4,7 +4,7 @@ import '../calculator_button.dart';
 import '../calculator_colors.dart';
 
 class CalculatorScreen extends StatefulWidget {
-  static const String routeName='calculator_screen';
+  static const String routeName = 'calculator_screen';
 
   CalculatorScreen({super.key});
 
@@ -13,7 +13,7 @@ class CalculatorScreen extends StatefulWidget {
 }
 
 class _CalculatorScreenState extends State<CalculatorScreen> {
-  String resText='';
+  String resText = '';
 
   @override
   Widget build(BuildContext context) {
@@ -57,22 +57,21 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                   textColor: CalculatorColors.whiteColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                  onButtonClick:onDigitClick,
-
+                                  onButtonClick: onClearClick,
                                 ),
                                 CalculatorButton(
-                                  text: 'AC',
+                                  text: '<',
                                   textColor: CalculatorColors.whiteColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDeleteClick,
                                 ),
                                 CalculatorButton(
                                   text: '/',
                                   textColor: CalculatorColors.whiteColor,
                                   backGroundColor:
                                       CalculatorColors.darkBlueColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onOperatorClick,
                                 ),
                               ],
                             ),
@@ -89,21 +88,21 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '8',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '9',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                               ],
                             ),
@@ -120,21 +119,21 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '5',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '6',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                               ],
                             ),
@@ -151,21 +150,21 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '2',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick,
+                                  onButtonClick: onDigitClick,
                                 ),
                                 CalculatorButton(
                                   text: '3',
                                   textColor: CalculatorColors.lightBlueColor,
                                   backGroundColor:
                                       CalculatorColors.lightGrayColor,
-                                    onButtonClick:onDigitClick
+                                  onButtonClick: onDigitClick,
                                 ),
                               ],
                             ),
@@ -184,7 +183,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                     textColor: CalculatorColors.lightBlueColor,
                                     backGroundColor:
                                         CalculatorColors.lightGrayColor,
-                                      onButtonClick:onDigitClick
+                                    onButtonClick: onDigitClick,
                                   ),
                                 ),
                                 Expanded(
@@ -194,7 +193,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                                     textColor: CalculatorColors.lightBlueColor,
                                     backGroundColor:
                                         CalculatorColors.lightGrayColor,
-                                      onButtonClick:onDigitClick
+                                    onButtonClick: onDigitClick,
                                   ),
                                 ),
                               ],
@@ -215,7 +214,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                             text: '*',
                             backGroundColor: CalculatorColors.darkBlueColor,
                             textColor: CalculatorColors.whiteColor,
-                              onButtonClick:onOperatorClick
+                            onButtonClick: onOperatorClick,
                           ),
                         ),
                         SizedBox(height: 22),
@@ -225,7 +224,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                             text: '-',
                             backGroundColor: CalculatorColors.darkBlueColor,
                             textColor: CalculatorColors.whiteColor,
-                              onButtonClick:onOperatorClick
+                            onButtonClick: onOperatorClick,
                           ),
                         ),
                         SizedBox(height: 22),
@@ -235,7 +234,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                             text: '+',
                             backGroundColor: CalculatorColors.darkBlueColor,
                             textColor: CalculatorColors.whiteColor,
-                              onButtonClick:onOperatorClick
+                            onButtonClick: onOperatorClick,
                           ),
                         ),
                         SizedBox(height: 22),
@@ -245,7 +244,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                             text: '=',
                             backGroundColor: CalculatorColors.lightBlueColor,
                             textColor: CalculatorColors.whiteColor,
-                              onButtonClick:onOperatorClick
+                            onButtonClick: onEqualClick,
                           ),
                         ),
                       ],
@@ -260,59 +259,69 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     );
   }
 
-  void onDigitClick(String text){
+  void onDigitClick(String text) {
+    if (resText == '.' && resText.contains('.')) {
+      return;
+    }
+    resText += text;
 
-    resText+=text;
-    print(resText);
-    setState(() {
-
-    });
-
-
+    setState(() {});
   }
-  String lhs='';
-  String operator='';
-  void onOperatorClick(String clickedOperator){
-    if(operator.isEmpty){
-      lhs=resText;
-      operator=clickedOperator;
-      resText='';
+
+  String lhs = '';
+  String operator = '';
+
+  void onOperatorClick(String clickedOperator) {
+    if (operator.isEmpty) {
+      lhs = resText;
+      operator = clickedOperator;
+      resText = '';
+    } else {
+      String rhs = resText;
+      lhs = calculate(lhs, rhs, operator);
     }
-    else{
-      String rhs=resText;
-      lhs=calculate(lhs,rhs,operator);
-      operator=clickedOperator;
-      resText='';
 
+    operator = clickedOperator;
+    resText = '';
+    setState(() {});
+  }
+
+  void onEqualClick(String text) {
+    String rhs = resText;
+    resText = calculate(lhs, rhs, operator);
+    lhs = '';
+    operator = '';
+    setState(() {});
+  }
+
+  void onClearClick(String text) {
+    resText = '';
+    lhs = '';
+    operator = '';
+    setState(() {});
+  }
+
+  void onDeleteClick(String text) {
+    if (resText.isEmpty) {
+      return;
     }
-    setState(() {
-
-    });
-
-
+    resText = resText.substring(0, resText.length - 1);
+    setState(() {});
   }
 
   String calculate(String lhs, String rhs, String operator) {
-    double num1=double.parse(lhs);
-    double num2=double.parse(lhs);
-    double res=0.0;
-    if(operator=='+'){
-      res=num1+num2;
-
-    }
-    else if(operator=='-'){
-      res=num1-num2;
-    }
-    else if(operator=='*'){
-      res=num1*num2;
-    }
-    else if(operator=='/'){
-      res=num1/num2;
+    double num1 = double.parse(lhs);
+    double num2 = double.parse(rhs);
+    double res = 0.0;
+    if (operator == '+') {
+      res = num1 + num2;
+    } else if (operator == '-') {
+      res = num1 - num2;
+    } else if (operator == '*') {
+      res = num1 * num2;
+    } else if (operator == '/') {
+      res = num1 / num2;
     }
     return res.toString();
-
   }
-
-
 }
-
