@@ -13,5 +13,11 @@ The Calculator App is a cross-platform Flutter application built with Dart, offe
 - **Flutter** – Cross-platform mobile framework
 - **Dart** – Programming language for Flutter development
 - **Material Design** – Google's design system for consistent UI/UX
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshot/Screenshot_20260308_171023.png" width="250" alt="Calculator Screenshot">
+</p>
   
 
