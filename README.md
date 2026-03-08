@@ -1,8 +1,5 @@
 ## About the Project
-
-The **Calculator App** is a cross-platform mobile application developed using Flutter and Dart. It offers a clean, modern interface with robust functionality for performing various mathematical calculations. Whether you're looking for a simple daily calculator or a more comprehensive tool for complex computations, this app is designed to meet your needs with excellent performance and usability.
-
-The project demonstrates best practices in Flutter development, including proper state management, clean architecture patterns, and platform-specific optimization for both Android and iOS.
+The Calculator App is a cross-platform Flutter application built with Dart, offering a clean, modern interface for both basic and complex mathematical calculations. It is optimized for high performance on both Android and iOS devices.
 
 ## Features
 
