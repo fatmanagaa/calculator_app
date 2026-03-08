@@ -1,16 +1,23 @@
-# calculator_screen_ui_logic
+## About the Project
 
-A new Flutter project.
+The **Calculator App** is a cross-platform mobile application developed using Flutter and Dart. It offers a clean, modern interface with robust functionality for performing various mathematical calculations. Whether you're looking for a simple daily calculator or a more comprehensive tool for complex computations, this app is designed to meet your needs with excellent performance and usability.
 
-## Getting Started
+The project demonstrates best practices in Flutter development, including proper state management, clean architecture patterns, and platform-specific optimization for both Android and iOS.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Basic Arithmetic Operations** – Addition, subtraction, multiplication, and division
+- **Intuitive User Interface** – Clean and responsive design optimized for all screen sizes
+- **Real-time Calculation Display** – Instant feedback as you input values
+- **Error Handling** – Graceful handling of invalid operations and edge cases
+- **Cross-Platform Support** – Runs seamlessly on both Android and iOS devices
+- **Fast Performance** – Optimized code for quick calculation results
+- **User-Friendly Experience** – Simple navigation and clear visual feedback
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** – Cross-platform mobile framework
+- **Dart** – Programming language for Flutter development
+- **Material Design** – Google's design system for consistent UI/UX
+  
+
