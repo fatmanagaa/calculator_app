@@ -5,11 +5,8 @@ The Calculator App is a cross-platform Flutter application built with Dart, offe
 
 - **Basic Arithmetic Operations** – Addition, subtraction, multiplication, and division
 - **Intuitive User Interface** – Clean and responsive design optimized for all screen sizes
-- **Real-time Calculation Display** – Instant feedback as you input values
-- **Error Handling** – Graceful handling of invalid operations and edge cases
 - **Cross-Platform Support** – Runs seamlessly on both Android and iOS devices
 - **Fast Performance** – Optimized code for quick calculation results
-- **User-Friendly Experience** – Simple navigation and clear visual feedback
 
 ## Technologies Used
 
